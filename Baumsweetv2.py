@@ -37,4 +37,4 @@ def baumsweet(n):
                 continue
 
 
-print(baumsweet(19611206))
+print(baumsweet(n))
