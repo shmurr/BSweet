@@ -1,5 +1,8 @@
 import math
 
+number = input()
+intNumber = int(number)
+
 #Defining function
 
 def baumsweet(n):
@@ -31,10 +34,8 @@ def baumsweet(n):
                     count = 0
                     return 0
         else:
-            if i == int(len(binary)) - 2:
-                return 1
-            else:
-                continue
+            continue
 
+    return 1
 
-print(baumsweet(n))
+print(baumsweet(intNumber))
